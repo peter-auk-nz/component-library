@@ -99,3 +99,155 @@ main {
 .btn-minimal:hover {
     background: #5568d3;
 }
+
+/* Search Box 2: Bold & Colorful */
+.search-bold {
+    padding: 0.75rem 1rem;
+    border: 3px solid #ff6b6b;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 300px;
+    outline: none;
+    color: #333;
+    transition: border-color 0.3s;
+}
+
+.search-bold:focus {
+    border-color: #ff9f43;
+}
+
+.btn-bold {
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(135deg, #ff6b6b, #ff9f43);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.btn-bold:hover {
+    opacity: 0.85;
+}
+
+/* Search Box 3: Rounded & Soft */
+.search-rounded {
+    padding: 0.75rem 1.25rem;
+    border: 2px solid #e0c3fc;
+    border-radius: 50px;
+    font-size: 1rem;
+    width: 300px;
+    outline: none;
+    background: #fdf6ff;
+    color: #555;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.search-rounded:focus {
+    border-color: #b388ff;
+    box-shadow: 0 0 0 4px rgba(179, 136, 255, 0.15);
+}
+
+.btn-rounded {
+    padding: 0.75rem 1.5rem;
+    background: #ce93d8;
+    color: white;
+    border: none;
+    border-radius: 50px; /* Fully rounded */
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-rounded:hover {
+    background: #ab47bc;
+}
+
+/* Search Box 4: Dark Mode */
+.demo-dark {
+    background: #1a1a2e;
+    border-radius: 8px;
+}
+
+.search-dark {
+    padding: 0.75rem 1.25rem;
+    border: 2px solid #444;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 300px;
+    outline: none;
+    background: #16213e;
+    color: #e0e0e0;
+    transition: border-color 0.3s;
+}
+
+.search-dark::placeholder {
+    color: #888;
+}
+
+.search-dark:focus {
+    border-color: #00d4ff;
+}
+
+.btn-dark {
+    padding: 0.75rem 1.5rem;
+    background: #00d4ff;
+    color: #1a1a2e;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-dark:hover {
+    background: #00b8d9;
+}
+
+/* Search Box 5: Glass Effect */
+.demo-glass {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 8px;
+}
+
+.search-glass {
+    padding: 0.75rem 1.25rem;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 50px;
+    font-size: 1rem;
+    width: 300px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+    backdrop-filter: blur(10px);
+    transition: border-color 0.3s, background 0.3s;
+}
+
+.search-glass::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.search-glass:focus {
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-glass {
+    padding: 0.75rem 1.5rem;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    transition: background 0.3s;
+}
+
+.btn-glass:hover {
+    background: rgba(255, 255, 255, 0.35);
+}
