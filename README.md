@@ -35,7 +35,7 @@ This is a sandbox for experimenting with different component designs and styles.
 component-library/
 ├── index.html          # Main HTML file
 ├── styles.css          # All component styles
-└── README.md          # This file
+└── README.md           # This file
 ```
 
 ## How to Use
